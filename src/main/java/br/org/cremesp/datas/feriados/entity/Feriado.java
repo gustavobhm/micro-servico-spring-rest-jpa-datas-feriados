@@ -18,7 +18,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 @Entity
-@Table(name = "PUB_FERIADOS")
+@Table( name = "PUB_FERIADOS")
 @JsonIdentityInfo(generator = ObjectIdGenerators.None.class)
 public class Feriado implements Serializable {
 
