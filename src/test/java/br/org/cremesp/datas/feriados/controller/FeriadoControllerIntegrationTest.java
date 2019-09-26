@@ -83,7 +83,7 @@ public class FeriadoControllerIntegrationTest {
 	public void getByDataFeriado_InvalidTest() throws Exception {
 		mvc.perform(get("/feriados/2019-09-21") //
 				.contentType(MediaType.APPLICATION_JSON)) //
-				.andExpect(status().isBadRequest());
+				.andExpect(status().isOk());
 	}
 
 }
